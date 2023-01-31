@@ -135,6 +135,9 @@ body::-webkit-scrollbar-thumb{
     margin-top: 3px;
 }
 
+.mt-5{
+    margin-top: 50px;
+}
 
 
 /* header section */
@@ -207,7 +210,7 @@ body::-webkit-scrollbar-thumb{
 /* design section */
 
 .design-section{
-    height: 88vh;
+    height: 95vh;
     background: linear-gradient(90deg, rgba(213,215,223,1) 0%, rgba(218,218,255,1) 35%, rgba(200,196,255,1) 100%);
 }
 
@@ -239,7 +242,8 @@ body::-webkit-scrollbar-thumb{
 .design-cnt{
     position: unset;
     max-width: 1140px;
-    padding: 60px 0;
+    padding: 60px 0 60px 15px;
+    margin: 0 auto;
 }
 
 
@@ -255,7 +259,7 @@ body::-webkit-scrollbar-thumb{
 .cnt-top h1 {
     line-height: 1.2;
     font-size: 36px;
-    font-weight: extrabold !important;
+    font-weight: 700!important;
     padding: 0 20px;
     margin-bottom: 20px !important;
 }
@@ -263,4 +267,49 @@ body::-webkit-scrollbar-thumb{
 .cnt-top p {
     font-size: 24px;
     font-weight: 400;
+    margin-bottom: 20px!important;
+}
+
+
+
+/* Card section */
+
+.design-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.card a {
+    text-decoration: none;
+}
+
+.card img {
+    margin: 0 auto;
+}
+
+.card-txt{
+    color: #824179;
+    display: block;
+    width: 165px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    white-space: nowrap;
+    
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px 30px 6px 30px;
+}
+
+.card-txt span {
+    
 }
