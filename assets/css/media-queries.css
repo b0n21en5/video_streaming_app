@@ -1,0 +1,43 @@
+@media screen and (max-width:767px) {
+
+    .container{
+        width: 95%;
+    }
+
+    .header-cnt {
+        padding-left: 10px;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .banner-cnt {
+        padding-left: 10px;
+    }
+
+    .banner_overview, .banner_title {
+        max-width: 100%;
+    }
+}
+
+
+@media screen and (max-width:492px) {
+    
+
+    .banner_title {
+        font-size: 40px;
+    }
+
+    .banner_info {
+        font-size: 12px;
+    }
+
+    .movie-section-heading {
+        text-align: center;
+    }
+
+    .movie-item {
+        width: 130px;
+    }
+}
